@@ -1,0 +1,62 @@
+body
+{
+    background: url("Thala.jpg");
+}
+.regform
+{
+    width: 500px;
+    margin: 250px auto ;
+    padding: 10px 20px 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 20px;
+
+    
+    
+}   
+.regform h3
+{
+    color: #E29578;
+    text-align: center ;
+} 
+.regform label
+{
+ display: block;
+ padding: 4px 5px 4px 6px;
+ font-size: 1.3em;
+ margin: 5px;
+}
+ 
+ .input input
+ {
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid greenyellow;
+    box-shadow: 5px;
+    border-radius: 10px;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    margin top: 5px 10px 15px;
+    
+
+ }
+  
+ 
+ .btn
+ {
+    text-align: center;
+ }
+ button
+ {
+    background-color: aqua;
+    font-size: 20px;
+    color: white;
+ }
+ .radio label
+ {
+    display: inline;
+    padding: 10px 10px 10px;
+    margin: 10px;
+    border: 4px;
+    border-spacing: 5px;
+ }
