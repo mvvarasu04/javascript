@@ -1,0 +1,35 @@
+body
+{ 
+    background: linear-gradient(lime, yellowgreen);
+}
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  float: right;
+}
+.box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.clearfix img {
+    width: 400px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.clearfix {
+    flex: 1;
+}
+.image
+{
+    float: center;
+    
+}
