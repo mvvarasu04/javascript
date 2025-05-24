@@ -1,0 +1,44 @@
+ 
+div img{
+    width: 100px;
+    margin: 0 auto;
+
+
+}
+body
+{
+  background-color: aquamarine;
+  
+}
+.loginform
+{
+width: 380px;
+margin: 0 auto;
+padding:60px;
+background-color: bisque;
+}
+
+.loginform input
+{
+    
+width: 330px;
+margin:6px;
+display: block;
+border: 4px;
+border-radius: 6px;
+font-size: 1.6em;
+
+}
+.loginform button
+{
+width: 330px;
+margin:0.5px;
+padding:8px ;
+display: inline-block;
+border-radius: 10px;
+}
+.loginform pre
+{
+    text-decoration: none;
+
+}

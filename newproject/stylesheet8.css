@@ -1,0 +1,79 @@
+body
+{
+  background: linear-gradient( aqua, blue,cyan) ;
+  text-align: justify;
+  color: white;
+  
+}
+nav
+{
+    background: linear-gradient(yellow, gold);
+    width: fit-content;
+    border-radius: 20px;
+}
+
+a,ul
+{
+    display: flex;
+    padding: 5px 30px;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px double coral;
+    border-radius: 20px;
+    color: grey;
+
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+a:link
+{
+    color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+ol
+{
+    list-style-type: none;
+}
+h3
+{
+    color: brown;
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+table
+{
+    border: 2px dashed red;
+    background-color:burlywood;
+}
+th,td
+{
+ background: linear-gradient(gold,greenyellow);
+color: black;
+padding: 5px 20px;
+margin: 2px; 
+
+}
+td:hover
+{
+  color:blue;
+}
+div.Resume a
+{
+width: 60px;
+font: 200;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

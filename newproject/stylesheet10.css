@@ -1,0 +1,75 @@
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition-property: all;
+    
+    
+}
+.box1:hover
+{
+    background: radial-gradient(green,yellow);
+    transition-duration: 5s;
+    
+}
+.box3:hover
+{
+  background:radial-gradient(blueviolet,cyan);
+  
+    
+}
+.para1
+{
+    background: radial-gradient( yellow , white ,red);
+    padding: 10px;
+
+}
+.para2:hover
+{
+    background-color: blueviolet;
+    transition-duration: 2s;
+    transform: rotateZ(360deg)    
+}
+.para1:hover
+{
+    color: chartreuse;
+    transition-duration: 3s;
+}
+div.circle1
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes  circle
+{
+    1%
+    {
+        width: 10px;
+        height: 10px;
+        background-color: yellow;
+    }
+    50%
+    {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        left: 100px;
+        top: 100px;
+    }
+    100%
+    {
+        background-color: crimson;
+        width: 200px;
+        height: 200px;
+        right: 100px;
+        bottom: 100px;
+
+    }
+}

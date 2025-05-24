@@ -1,0 +1,50 @@
+body
+{
+    background-color: goldenrod;
+}
+.container
+{
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+}
+.para1,.para4
+{
+    background-color: blue;
+    border: 4px;
+    border-color: yellow;
+    border-style: double;
+    padding: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:table-row;
+
+}
+.para2
+{
+    background-color: aqua;
+    border: 5px;
+    border-color: rgb(24, 7, 100);
+    border-style: dotted;
+    margin: 20px;
+    padding: 20px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para3
+{
+    background-color: darkgray;
+    color: purple;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+
+}
+.para5
+{
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;
+    
+}

@@ -1,0 +1,83 @@
+ body
+ {
+    background-color:greenyellow;
+ }
+.navigation
+{
+    position:absolute;
+    height: 100vh;
+    color:red;
+    text-align: center;
+
+}
+
+ nav {
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.1); /* Sets background color */
+    padding: 10px 0; /* Adds some spacing */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family:cursive;
+    font-size:1.5em;
+}
+div.para
+{
+    display: flex;
+    width:fit-content;
+    margin: 10px;
+    border: 4px;
+    border-color: crimson;
+    border-style: dashed;
+}
+.para1
+{
+        background-color: blueviolet;
+        border: 3px;
+        border-style: double;
+        border-color: blue;
+        padding: 8px;
+        flex:0.5;
+    
+}
+.para2
+{
+         background-color: rgb(9, 167, 49);
+        border: 3px;
+        border-style: ridge;
+        border-color:red;
+        padding: 8px;
+        flex:3;
+}
+.para3
+{
+         background-color: hotpink;
+        border: 3px;
+        border-style: dotted;
+        border-color: purple;
+        padding: 8px;
+        flex:0.5;
+        
+}
+span.box 
+{
+   background-color: aquamarine;
+   width: 400px;
+
+}
