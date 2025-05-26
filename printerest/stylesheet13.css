@@ -1,0 +1,105 @@
+body
+{
+    background-image: url("sideimage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    ba
+
+}
+li,a
+{
+    display: inline;
+    background-color:aqua;
+    text-decoration:none;
+    color:black; 
+    margin:10px;
+    padding:10px;
+
+}
+a:hover
+{
+    background-color: blue;
+    color: white;
+    border: 5px solid ;
+    border-radius: 10px;
+    border-color: yellowgreen;
+   
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transition-property: all;
+}
+div.Home
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background:radial-gradient(  rgba(8, 85, 136 ,0.5));
+    color: white;
+}
+.Home:hover
+{
+    background-color: cadetblue;
+    color: black;
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
+div.Branches
+{
+    background-color: rgba(27, 197, 126, 0.5);
+    color: white;
+}
+.Branches:hover
+{
+    background-color: rebeccapurple;
+    color: black;
+}
+div.Career
+{
+  background-color: rgba(27, 197, 126, 0.5);
+    color: white; 
+}
+.Career:hover
+{
+    background-color: rebeccapurple;
+    color: black;
+    
+}
+div.Services
+{
+    background:radial-gradient(  rgba(8, 85, 136 ,0.5));
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 4; 
+}
+.Services:hover 
+{
+    background-color: cadetblue;
+    color: black;
+}
+div.Contact
+{
+    background:radial-gradient(  rgba(8, 85, 136 ,0.5));
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.Contact:hover 
+{
+    background-color: cadetblue;
+    color: black;
+}
+div.About
+{
+ background-color: rgba(27, 197, 126, 0.5);
+    color: white; 
+}
+.About:hover
+{
+    background-color: rebeccapurple;
+    color: black;
+    
+    
+}   
