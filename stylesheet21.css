@@ -1,0 +1,118 @@
+body
+{
+    background:radial-gradient( rgb(219, 67, 29)  200px, rgb(219, 223, 15) 400px,purple 200px , rgb(64, 64, 231));
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header
+{
+    text-align: center;
+    font-size: 1.5em;
+    background:radial-gradient(rgb(39, 153, 24),rgb(44, 44, 145) );
+    color: white;
+    padding: 15px;
+}
+.topnav a,li
+{
+    color: white;
+    display: inline-flex;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.topnav button
+{
+    text-align: right;
+}
+.topnav a:hover
+{
+    color: orangered;
+    background: linear-gradient(135deg , blue, violet);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.topnav li:hover
+{
+    color: green;
+
+}
+.topnav h1
+{
+    color: white;
+}
+.topnav h1:hover
+{
+    color: orangered;
+}
+.topnav button
+{
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.topnav button:hover
+{
+    background: rgb(5, 223, 223);
+    color:rgb(12, 12, 12);
+    font-weight: 500;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+.box1
+{
+    padding: 30px 50px;
+    margin: 10px;
+}
+.box2
+{
+    background: linear-gradient(135deg,rgb(214, 208, 208),rgb(168, 180, 192));
+    border: 2px solid purple;
+    border-radius: 20px;
+    text-align: center;
+    width:350px;
+    position: relative;
+    bottom: 50px;
+}
+.box3
+{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    font-size:xx-large;
+}
+.box4
+{
+    background: linear-gradient( rgb(150, 196, 45) ,  rgb(56, 16, 199) ) ;
+    border: 2px solid yellowgreen ;
+    border-radius: 20px;
+    width: 350px;
+    position: relative;
+    bottom:70px;
+    left:100px;
+    text-align: center;
+}
+.box5
+{
+    background-color: antiquewhite;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    width: 300px;
+    position: relative;
+    left:100px ;
+    top: 100px;
+    text-align: center;
+
+
+}
