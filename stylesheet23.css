@@ -1,0 +1,122 @@
+body
+{
+    background: radial-gradient(rgb(180, 5, 93), rgb(12, 12, 230));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header
+{
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+.topnav
+{
+    background: linear-gradient(135deg, lime,blue);
+    padding:1px;
+    font-size: larger;
+
+}
+.topnav a,li
+{
+    text-decoration:none ;
+    display: inline-flex;
+    color: white;
+    padding-right:10px;
+}
+.topnav a:hover
+{
+    color: darkblue;
+    background-color: yellowgreen;
+    border-radius: 2px;
+}
+
+.search
+{
+    display: inline-flex;
+    position: relative;
+    left: 500px;
+    color: white;
+}
+.search input
+{
+    padding: 2px;
+    border: 2px solid white ;
+    border-radius: 5px;
+    margin-left:10px;
+}
+.search input:hover
+{
+    background-color: purple;
+    color: white;
+    font-size: medium;
+}
+
+form
+{
+    background: repeating-radial-gradient(red 100px, yellow ,red);
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:10px;
+    font-size: larger;
+    color: blue;
+    border-radius: 20px ;
+    
+    
+}
+.container input
+{
+    display: block;
+    background-color:yellowgreen ;
+    justify-content: center;
+    padding: 4px;
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1em;
+
+}
+.container h1
+{
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+}
+button
+{
+ width:100%;
+ margin:20px;
+ border: 2px solid red ;
+ border-radius: 10px;
+ padding: 2px;
+ font-size: large;
+ background: linear-gradient(100deg, green,purple);
+ color: white;
+}
+button:hover
+{
+    background:linear-gradient(rgb(240, 7, 123));
+    color: white;
+    border: 1px solid hotpink;
+    box-shadow: 0 0 0.5em .5em hotpink ;
+    
+}
+div.Forget a
+{
+    width: 100%;
+    text-decoration:underline;
+    text-decoration-color: red;
+    color: purple;
+    padding-left: 80px;
+    
+}
+div.Forget a:hover
+{
+    color: rgb(50, 11, 156);
+    text-shadow: inset 0 0 .5em 1em red ;
+}
