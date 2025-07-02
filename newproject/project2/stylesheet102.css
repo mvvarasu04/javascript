@@ -1,0 +1,95 @@
+body
+{
+    background: linear-gradient(135deg,rgb(121, 11, 121),rgb(2, 252, 147));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    
+
+}
+.container img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.box1
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+.box1 img
+{
+    float: right;
+}
+h1
+{
+    width: 100%;
+
+}
+.box6
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+}
+.box6 img
+{
+    float: right;
+}
+.container1
+{
+    
+    display: grid;
+
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.container1 img
+{
+    width: 250px;
+    height: 250px;
+    float: left;
+    
+}
+
+
+.box10
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index:-1;
+    background: radial-gradient(rgb(17, 190, 17),rgb(6, 124, 202));
+    position: absolute;
+    animation-name:circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle
+{
+    0%
+    {
+        top: 0px;
+        left:0px;
+    }
+    50%
+    {
+        top:0px;
+        left:1000px;
+    }
+    100%
+    {
+        top: 0px;
+        left:0px;
+    }
+}

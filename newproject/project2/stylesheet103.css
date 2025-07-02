@@ -1,0 +1,92 @@
+* {
+  border: none;
+  outline: none;
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:linear-gradient(135deg,rgb(219, 14, 219),rgb(32, 179, 3));
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size:fixed;
+    background-attachment: fixed;
+
+}
+.container
+{
+
+}
+form
+{
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+    border: 5px solid greenyellow;
+    background: linear-gradient(120deg, red,yellow);
+
+}
+input
+{
+    display: block;
+    margin: 15px;
+    font-size: 1em;
+    border-radius: 5px ;
+    border: 2px solid blueviolet;
+}
+input:focus-visible
+{   
+    border-width: 2px;
+    color:black;
+}
+input:focus
+{
+    border:2px solid rgb(3, 80, 54);
+    color: black;
+    border-width: 0px;
+}
+input:hover
+{
+    background-color: lightblue;
+}
+
+h2
+{
+    width: 100%;
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    text-shadow: 1px 3px 3px white;
+}
+select
+{
+    display: block;
+    width: 180px;
+    margin: 15px;
+    padding: 4px;
+    border-radius: 5px;
+}
+button
+{
+    width: 80%;
+    margin-left: 40px;
+    padding: 4px;
+    color:blue;
+    font-weight: 900;
+    font-size: medium;
+    border-radius: 8px;
+}
+button:hover
+{
+    background:linear-gradient(135deg,rgb(163, 18, 91),grey);
+    box-shadow:  0  00 .5em .5em pink ;
+    color: purple;
+}
+button:focus
+{
+    background: linear-gradient(100deg, green,red);
+}

@@ -1,0 +1,65 @@
+body
+{
+    background: radial-gradient(rgb(109, 1, 109)400px, blue,hotpink);
+    background-size: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header
+{
+ background: linear-gradient(120deg, yellow,red);
+ padding: 4px;
+ margin: 2px;
+}
+.topnav
+{
+    background:linear-gradient(120deg, aqua,purple);
+    overflow: hidden;
+}
+.topnav li,a
+{
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 6px;
+    padding-left: 10px;
+    text-decoration: none;
+    color:white;
+    float: right;
+}
+.container1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+div.box
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: repeating-radial-gradient(red,blue,green,hotpink,yellow,black,white);
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+@keyframes slide
+
+
+{
+0%
+{
+    top: 0px; left: 0px;
+}
+50%
+{
+    top:0px; left: 900px;
+}
+100%
+{
+top: 0px; left: 0px;
+}
+
+}
